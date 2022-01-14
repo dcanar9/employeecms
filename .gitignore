@@ -1,0 +1,2 @@
+# ignore the node modules becasue there are too many and users can just install using npm
+/node_modules

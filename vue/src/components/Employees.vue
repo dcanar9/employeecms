@@ -3,7 +3,7 @@
     <h1 class="title">Employees</h1>
     <table class="table table-striped">
       <thead class="thead-dark">
-        <tr>
+        <tr class="tableHeaders">
           <th scope="col">ID</th>
           <th scope="col">Name</th>
           <th scope="col">Department</th>
@@ -72,7 +72,7 @@
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
-  tr:hover{
+  tr:hover:not(.tableHeaders){
     background-color: beige;
   }
   #empCard{

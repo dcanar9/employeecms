@@ -37,9 +37,7 @@ app.use(formidableMiddleware())
 app.use(function(req, res, next){ 
     res.setHeader("Access-Control-Allow-Origin", "http://localhost:8080")
     res.setHeader("Access-Control-Allow-Methods", "GET, POST, OPTIONS, PUT, DELETE, PATCH")
-    //res.setHeader("Access-Control-Allow-Headers", "Content-Type, X-Requested-With")
     res.setHeader("Access-Control-Allow-Headers", "Access-Control-Allow-Headers, Origin,Accept, X-Requested-With, Content-Type, Access-Control-Request-Method, Access-Control-Request-Headers")
-    //res.setHeader("Access-Control-Allow-Headers", true)
     next()      // needed to continue with the rest of the middle ware
 })
 

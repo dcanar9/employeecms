@@ -61,20 +61,6 @@
           <input class="col-md-2 btn btn-dark" type="submit" value="Close" @click.prevent="togglePopUp">
         </div>
       </form>
-      <!-- <form>
-        <label>ID:</label>
-        <input type="number" v-model="formEmp.id" required>
-        <label>Name:</label>
-        <input type="text" v-model="formEmp.name" required>
-        <label>Department:</label>
-        <input type="text" v-model="formEmp.dept" required>
-        <label>Salary:</label>
-        <input type="Number" v-model="formEmp.salary" required>
-        <label>Location:</label>
-        <input type="text" v-model="formEmp.location" required>
-        <input type="submit" value="Update" @click.prevent="updateEmp">
-        <input type="submit" value="Close" @click.prevent="togglePopUp">
-      </form> -->
     </div>
   </div>
 </template>
